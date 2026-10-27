@@ -1,81 +1,182 @@
 [
   {
-    "intent": "fee",
-    "keywords": [
-      "fee",
-      "fees",
-      "fee structure",
-      "semester fee",
-      "tuition fee",
-      "payment",
-      "dues",
-      "scholarship"
-    ],
-    "reply": "For information about the University of Sargodha fee structure, tuition fees, scholarships, and payment deadlines, please check the official university website or contact your department's administration office. Fee amounts may vary by program and semester."
+    "intent": "greeting",
+    "keywords": ["hi", "hello", "hey", "salam", "assalam o alaikum", "assalamualaikum", "aoa", "good morning", "good afternoon", "good evening"],
+    "reply": "Assalam-o-Alaikum! Welcome to UOS Helpdesk Bot. I can help you with admissions, fees, merit lists, exams, results, scholarships, library, hostel, transport and other student services. What would you like to know?"
+  },
+  {
+    "intent": "thanks",
+    "keywords": ["thanks", "thank you", "thankyou", "shukriya", "jazakallah"],
+    "reply": "You're welcome! I'm happy to help. If you have another university-related question, feel free to ask."
+  },
+  {
+    "intent": "goodbye",
+    "keywords": ["bye", "goodbye", "allah hafiz", "khuda hafiz", "see you"],
+    "reply": "Allah Hafiz! Thank you for using UOS Helpdesk Bot. Best wishes for your studies!"
+  },
+  {
+    "intent": "help",
+    "keywords": ["help", "what can you do", "how can you help", "available services", "topics", "options"],
+    "reply": "I can answer common questions about admissions, eligibility, programs, merit lists, entry tests, fees, scholarships, challans, exams, results, GPA, attendance, library, hostel, transport, student cards, certificates, complaints and campus facilities. Ask me about any of these topics."
   },
   {
     "intent": "admission",
-    "keywords": [
-      "admission",
-      "admissions",
-      "apply",
-      "application",
-      "eligibility",
-      "merit",
-      "merit list",
-      "last date",
-      "deadline",
-      "documents",
-      "required documents"
-    ],
-    "reply": "For admission information, eligibility criteria, application deadlines, merit lists, and required documents, please consult the official University of Sargodha website or contact the Admissions Office. Requirements and deadlines may differ by program."
+    "keywords": ["admission", "admissions", "apply for admission", "how to apply", "application form", "online application"],
+    "reply": "For admission guidance, check the official University of Sargodha website and current admission advertisement. Follow the instructions for your selected program, complete the application, submit the required documents and pay any applicable application fee. Deadlines and procedures can change each admission cycle."
+  },
+  {
+    "intent": "eligibility",
+    "keywords": ["eligibility", "eligible", "qualification", "minimum marks", "required marks", "percentage required", "who can apply"],
+    "reply": "Eligibility depends on the degree program, previous qualification and current admission policy. Check the eligibility criteria in the latest official admission advertisement or contact the relevant department before applying."
+  },
+  {
+    "intent": "programs",
+    "keywords": ["programs", "degree programs", "courses offered", "degrees offered", "which degree", "bs programs", "bachelors", "masters", "mphil", "phd"],
+    "reply": "The university may offer different undergraduate and postgraduate programs across its departments. Available programs and admission status can change. Consult the current official prospectus or department list to confirm the degree you want to study."
+  },
+  {
+    "intent": "departments",
+    "keywords": ["department", "departments", "faculty", "which department", "department list", "department contact"],
+    "reply": "For the complete list of faculties, departments and their contact details, consult the official University of Sargodha website. Tell me the subject or department you're interested in, and I can help you identify what information to look for."
+  },
+  {
+    "intent": "merit",
+    "keywords": ["merit list", "merit lists", "merit", "closing merit", "aggregate", "merit position", "selected candidates", "selection list"],
+    "reply": "Merit depends on the program, applicant pool and applicable admission criteria. Check the official admission portal for published merit lists and selection updates. I cannot verify current merit positions or closing aggregates from this offline chatbot."
+  },
+  {
+    "intent": "entry_test",
+    "keywords": ["entry test", "admission test", "test date", "test preparation", "test syllabus", "interview", "test result"],
+    "reply": "Entry test and interview requirements vary by program and admission cycle. Check your program's latest admission notice for test dates, syllabus, venue, required documents and results."
+  },
+  {
+    "intent": "documents",
+    "keywords": ["required documents", "documents required", "documents for admission", "document checklist", "matric certificate", "inter certificate", "educational documents"],
+    "reply": "Commonly requested admission documents may include educational certificates and transcripts, photographs, identity documents and any program-specific documents. This is a general checklist, not an official final list. Follow the current admission advertisement for exact requirements."
+  },
+  {
+    "intent": "application_status",
+    "keywords": ["application status", "check application", "application submitted", "application number", "forgot application number", "admission portal login"],
+    "reply": "To check your application status, sign in to the official admission portal using your registered credentials. If you cannot access your account or application number, contact the admissions office. Never share your password or verification codes in this chat."
+  },
+  {
+    "intent": "fee",
+    "keywords": ["fee", "fees", "fee structure", "semester fee", "tuition fee", "university fee", "total fee", "dues", "fee amount"],
+    "reply": "Fees vary by program, semester and applicable university charges. Check the latest official fee schedule or contact your department or accounts office for the exact amount. This chatbot does not have verified live fee data."
+  },
+  {
+    "intent": "challan",
+    "keywords": ["challan", "fee challan", "download challan", "duplicate challan", "payment voucher", "fee payment", "bank payment", "online payment"],
+    "reply": "Follow the official university portal or accounts office instructions to generate and pay your fee challan. Check the due date, payment reference and accepted payment methods. Keep your payment receipt. If payment is not reflected, contact the accounts office with your receipt."
+  },
+  {
+    "intent": "scholarship",
+    "keywords": ["scholarship", "scholarships", "financial aid", "need based", "merit scholarship", "fee concession", "financial assistance", "ehsaas scholarship"],
+    "reply": "Scholarship availability and eligibility depend on the current schemes and their rules. Ask the university's financial aid or scholarship office about open applications, eligibility, deadlines and required documents. Verify any external scholarship through its official provider."
   },
   {
     "intent": "timing",
-    "keywords": [
-      "timing",
-      "timings",
-      "university time",
-      "opening time",
-      "closing time",
-      "office hours",
-      "class schedule",
-      "class timing",
-      "working hours",
-      "when does the university open",
-      "when does the university close"
-    ],
-    "reply": "University and department timings may vary depending on the day, department, and academic schedule. Please contact your department office for the latest class timetable and administrative office hours."
+    "keywords": ["timing", "timings", "university hours", "opening time", "closing time", "office hours", "class timing", "working hours", "university open", "university close"],
+    "reply": "Class schedules and office hours may differ by department, weekday and academic calendar. Contact your department or the relevant office for current timings. This chatbot does not have live campus opening information."
+  },
+  {
+    "intent": "academic_calendar",
+    "keywords": ["academic calendar", "semester start", "semester end", "semester dates", "holidays", "university holiday", "vacations", "semester break"],
+    "reply": "Semester dates, holidays and breaks are announced through official university notices and the academic calendar. Check the latest published calendar or ask your department office to confirm upcoming dates."
+  },
+  {
+    "intent": "exams",
+    "keywords": ["exam", "exams", "examination", "exam rules", "exam registration", "final exam", "midterm", "paper"],
+    "reply": "For examination rules, registration, exam schedules and instructions, consult the relevant examination office or your department. Follow official notices for changes to exam arrangements."
+  },
+  {
+    "intent": "date_sheet",
+    "keywords": ["date sheet", "datesheet", "exam schedule", "paper schedule", "exam timetable", "paper date", "exam date"],
+    "reply": "Date sheets are issued by the relevant examination office or department. Check official university announcements for your program, semester and examination session. Confirm the latest version before your papers."
+  },
+  {
+    "intent": "results",
+    "keywords": ["result", "results", "check result", "result announced", "marks", "transcript", "dmc", "result card"],
+    "reply": "Check results through the official university result portal or examination office when they are announced. Keep your registration or roll number available. For missing or incorrect results, contact the examination office."
+  },
+  {
+    "intent": "gpa",
+    "keywords": ["gpa", "cgpa", "grade point", "grading system", "calculate cgpa", "semester gpa", "improve gpa"],
+    "reply": "GPA and CGPA are calculated according to your university's grading and credit-hour rules. Consult the official academic regulations for grade points, repeats, probation and calculation methods. If you share your grades and credit hours, I can help with a general calculation."
+  },
+  {
+    "intent": "attendance",
+    "keywords": ["attendance", "attendance shortage", "attendance percentage", "minimum attendance", "short attendance", "attendance rules"],
+    "reply": "Attendance requirements depend on the applicable university regulations and course rules. Contact your instructor or department office if you have a shortage, medical issue or attendance record discrepancy."
   },
   {
     "intent": "library",
-    "keywords": [
-      "library",
-      "books",
-      "borrow books",
-      "library card",
-      "reading room",
-      "study room",
-      "library timing",
-      "library hours",
-      "return books"
-    ],
-    "reply": "For library membership, book borrowing, returning books, reading facilities, and library opening hours, please contact the University of Sargodha Library. The library staff can provide the latest information about available services and rules."
+    "keywords": ["library", "books", "borrow books", "library card", "reading room", "study room", "library timing", "return books", "library membership"],
+    "reply": "For library membership, borrowing and returning books, reading spaces, opening hours and fines, contact the university library. Ask the library staff about current rules and available resources."
   },
   {
     "intent": "hostel",
-    "keywords": [
-      "hostel",
-      "accommodation",
-      "room",
-      "hostel fee",
-      "hostel admission",
-      "hostel facilities",
-      "mess",
-      "residence",
-      "hostel application",
-      "hostel charges"
-    ],
-    "reply": "For information about university hostel applications, accommodation availability, hostel fees, mess facilities, and eligibility, please contact the University of Sargodha Hostel Administration. Availability and charges may vary."
+    "keywords": ["hostel", "accommodation", "hostel room", "hostel fee", "hostel admission", "hostel facilities", "mess", "residence", "hostel application"],
+    "reply": "For hostel applications, room availability, eligibility, fees and mess facilities, contact the university hostel administration. Availability and charges may change, so confirm the current details before applying."
+  },
+  {
+    "intent": "transport",
+    "keywords": ["transport", "university bus", "bus route", "bus timing", "bus service", "transport fee", "pick and drop", "shuttle"],
+    "reply": "For university transport routes, stops, schedules, fares and registration, contact the transport office. Routes and availability may vary by semester and location."
+  },
+  {
+    "intent": "student_card",
+    "keywords": ["student card", "student id", "id card", "identity card", "lost card", "duplicate card", "card renewal"],
+    "reply": "For a new, lost or replacement student ID card, contact the relevant student affairs or identity card office. Ask about the required application, identification documents and any replacement fee."
+  },
+  {
+    "intent": "certificates",
+    "keywords": ["bonafide", "bonafide certificate", "character certificate", "migration certificate", "provisional certificate", "degree certificate", "degree issuance", "verification of degree"],
+    "reply": "For bonafide, character, migration, provisional or degree certificates, ask the relevant department or examination office about the application process, documents, charges and processing time."
+  },
+  {
+    "intent": "complaint",
+    "keywords": ["complaint", "complaints", "grievance", "report a problem", "student complaint", "harassment complaint", "disciplinary issue"],
+    "reply": "For a university complaint, contact the appropriate department, student affairs office or designated complaint channel. For harassment or immediate safety concerns, use the university's designated support process or appropriate local emergency services. Share sensitive details only with authorized personnel."
+  },
+  {
+    "intent": "contact",
+    "keywords": ["contact", "phone number", "email address", "email", "helpline", "admissions office number", "office contact", "official website"],
+    "reply": "For verified phone numbers, email addresses and official announcements, use the official University of Sargodha website and its published contact directory. I do not have verified live contact details in this offline chatbot."
+  },
+  {
+    "intent": "location",
+    "keywords": ["location", "address", "where is university", "campus location", "how to reach", "directions", "main campus"],
+    "reply": "For the official campus address, maps and directions, consult the University of Sargodha's official website or a trusted map service. Confirm the destination and campus before travelling."
+  },
+  {
+    "intent": "cafeteria",
+    "keywords": ["cafeteria", "canteen", "food", "food court", "lunch", "refreshments"],
+    "reply": "For campus cafeteria locations, opening hours, available food and current prices, check with campus administration or the cafeteria staff."
+  },
+  {
+    "intent": "sports",
+    "keywords": ["sports", "gym", "football", "cricket", "sports facilities", "sports club", "playground"],
+    "reply": "For sports facilities, club membership, grounds, schedules and equipment, contact the relevant sports office or student affairs department."
+  },
+  {
+    "intent": "societies",
+    "keywords": ["society", "societies", "student club", "clubs", "events", "student event", "volunteer", "extracurricular"],
+    "reply": "For student societies, events, volunteering and club registration, check university announcements and contact student affairs or the relevant society coordinator."
+  },
+  {
+    "intent": "it_support",
+    "keywords": ["wifi", "wi-fi", "internet", "portal not working", "website not working", "password reset", "login problem", "technical issue", "computer lab"],
+    "reply": "For Wi-Fi, portal login, account access or computer lab issues, contact the relevant IT support office. Do not share passwords or one-time verification codes in this chat."
+  },
+  {
+    "intent": "internships",
+    "keywords": ["internship", "internships", "job", "jobs", "career", "career counselling", "placement", "employment"],
+    "reply": "For internships, job opportunities, career counselling and placement activities, check official university announcements and contact the relevant career office or department."
+  },
+  {
+    "intent": "fallback",
+    "keywords": [],
+    "reply": "Sorry, I couldn't find a matching answer. Try asking about admission, eligibility, programs, merit lists, fees, scholarships, exams, results, GPA, attendance, library, hostel, transport or student services. For official or time-sensitive information, please contact the relevant university office."
   }
 ]
