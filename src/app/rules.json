@@ -1,0 +1,81 @@
+[
+  {
+    "intent": "fee",
+    "keywords": [
+      "fee",
+      "fees",
+      "fee structure",
+      "semester fee",
+      "tuition fee",
+      "payment",
+      "dues",
+      "scholarship"
+    ],
+    "reply": "For information about the University of Sargodha fee structure, tuition fees, scholarships, and payment deadlines, please check the official university website or contact your department's administration office. Fee amounts may vary by program and semester."
+  },
+  {
+    "intent": "admission",
+    "keywords": [
+      "admission",
+      "admissions",
+      "apply",
+      "application",
+      "eligibility",
+      "merit",
+      "merit list",
+      "last date",
+      "deadline",
+      "documents",
+      "required documents"
+    ],
+    "reply": "For admission information, eligibility criteria, application deadlines, merit lists, and required documents, please consult the official University of Sargodha website or contact the Admissions Office. Requirements and deadlines may differ by program."
+  },
+  {
+    "intent": "timing",
+    "keywords": [
+      "timing",
+      "timings",
+      "university time",
+      "opening time",
+      "closing time",
+      "office hours",
+      "class schedule",
+      "class timing",
+      "working hours",
+      "when does the university open",
+      "when does the university close"
+    ],
+    "reply": "University and department timings may vary depending on the day, department, and academic schedule. Please contact your department office for the latest class timetable and administrative office hours."
+  },
+  {
+    "intent": "library",
+    "keywords": [
+      "library",
+      "books",
+      "borrow books",
+      "library card",
+      "reading room",
+      "study room",
+      "library timing",
+      "library hours",
+      "return books"
+    ],
+    "reply": "For library membership, book borrowing, returning books, reading facilities, and library opening hours, please contact the University of Sargodha Library. The library staff can provide the latest information about available services and rules."
+  },
+  {
+    "intent": "hostel",
+    "keywords": [
+      "hostel",
+      "accommodation",
+      "room",
+      "hostel fee",
+      "hostel admission",
+      "hostel facilities",
+      "mess",
+      "residence",
+      "hostel application",
+      "hostel charges"
+    ],
+    "reply": "For information about university hostel applications, accommodation availability, hostel fees, mess facilities, and eligibility, please contact the University of Sargodha Hostel Administration. Availability and charges may vary."
+  }
+]
